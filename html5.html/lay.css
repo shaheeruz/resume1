@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    height: 900px;
+    width: 100%;
+    background-color:white;
+}
+
+header{
+    text-transform: uppercase;
+    font-size: 20px;  
+    height:150px;
+    width: 100%;
+    background-color:skyblue;
+    background-image: linear-gradient(-300deg,skyblue,lightgreen);
+    }
+    
+    header h1{
+        text-decoration: none;
+        text-shadow: 2px 2px 5px darkcyan;
+        line-height: 70px;
+        color: aqua;
+    }
+
+    header h2{
+        text-align: end;
+        text-decoration: none;
+        text-shadow: 2px 2px 5px darkcyan;
+        line-height: 70px;
+        color: aqua;
+ }
+    
+nav{
+    text-decoration:none;
+font-size: 25px;   
+    height:150px;
+        width: 100%;
+        background-color:steelblue;
+        background-image: linear-gradient(-300deg,steelblue,seagreen);
+ }
+
+ nav ul li{
+    display: inline; padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-shadow: 2px 2px 5px gold;
+    line-height: 70px;
+    color: aqua;
+    } 
+    
+ section{
+    text-decoration:none;
+    font-size: 25px;   
+        height:50%;
+            width: 100%;
+            
+            background-image: linear-gradient(-300deg,firebrick,aqua); 
+ }
+ 
+ article{
+    text-decoration: none;
+    font-size: 25px;
+    height:50% ;
+    width: 100%;
+    background-image: linear-gradient(-300deg,firebrick,aqua); 
+     float: right;
+     }
+
+     aside
+     {
+        text-decoration: none;
+        font-size: 25px;
+        background-color: brown;
+     }
+
+     footer{
+        text-decoration: none;
+        font-size: 25px;
+        height:10% ;
+        width: 100%;
+        background-color: aquamarine;
+     }
